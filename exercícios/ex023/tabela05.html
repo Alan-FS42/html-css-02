@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 05</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: ivory;
+        }
+        table {
+            width: 300px;
+            border-collapse: collapse;
+        }
+        h1 {
+            text-align: center;
+            border: 3px solid black;
+          
+        }
+        caption {
+            font-size: 1.2em;
+            padding: 5px;
+            font-weight: bold;
+        }
+        tr, td {
+            border: 1px solid black;
+           
+            padding: 5px;
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        col.cidade {
+            background-color: aqua;
+        }
+        col.csexo, .cprof {
+            background-color: aquamarine;
+        }
+        col.cnome {
+            background-color: azure;
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>Exercícios de tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Tony Saraveyo</td>
+            <td>M</td>
+            <td>65</td>
+            <td>Matador de aluguel</td>
+        </tr>
+        <tr>
+            <td>Suvaqueira</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Adm de Jogo do Bixo</td>
+        </tr>
+        <tr>
+            <td>Vilmara MontSanto</td>
+            <td>F</td>
+            <td>53</td>
+            <td>Adm de Rinha de Galo</td>
+        </tr>
+        <tr>
+            <td>Jurisleibe</td>
+            <td>M</td>
+            <td>39</td>
+            <td>Advogado</td>
+        </tr>
+        <tr>
+            <td>Marquinho</td>
+            <td>M</td>
+            <td>11</td>
+            <td>Dono de boca</td>
+        </tr>
+        <tr>
+            <td>Belinda</td>
+            <td>V</td>
+            <td>7</td>
+            <td>Vaca leiteira</td>
+        </tr>
+    </table>
+</body>
+</html>
